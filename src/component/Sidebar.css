@@ -1,0 +1,76 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100%;
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 1050;
+}
+
+.sidebar-content {
+  position: relative;
+  text-align: left;
+}
+
+.sidebar-title {
+  color: #007bff;
+  font-weight: bold;
+  text-align: left;
+}
+
+.schema-box {
+  background-color: #e9f5f9;
+  border: 1px solid #bce4f3;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.dot {
+  display: flex;
+  align-items: center;
+}
+
+.dot-color.user-trait {
+  height: 8px;
+  width: 8px;
+  background-color: #28a745;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.add-schema-link {
+  color: #007bff;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+.add-schema-link:hover {
+  text-decoration: underline;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-button {
+  width: 48%;
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancel-button {
+  width: 48%;
+}
+
+.schema-dropdown {
+  width: 100%;
+  text-align: left;
+}
